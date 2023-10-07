@@ -1,0 +1,11 @@
+/* 代码块样式优化 */
+code {
+    padding: 6px 10px;
+    width: 80%;
+    font-size: 0.625rem;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background: #eee;
+    line-height: 1.4;
+}
