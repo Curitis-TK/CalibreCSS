@@ -1,11 +1,34 @@
-/* 代码块样式优化 */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 5px;
+	letter-spacing: .05em
+}
+
+p{
+  	text-rendering: optimizelegibility !important;
+	letter-spacing: .03em;
+	color: #777;
+}
+
+
 code {
     padding: 6px 10px;
-    width: 80%;
-    font-size: 0.625rem;
-    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-size: 0.675rem;
+    font-family: Consolas, 'Courier New', monospace;
     border: 1px solid #ccc;
     display: inline-block;
     background: #eee;
     line-height: 1.4;
+    vertical-align: middle;
+}
+
+tt code {
+    width: 90%;
+    display: block;
 }
